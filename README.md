@@ -26,6 +26,7 @@ git clone https://github.com/rajpkr/Connect-Four-Game.git
 
 ## Project Structure
 The project structure is as follows:
+```sh
 Connect-Four-Game/
 ├── src/
 │   └── connect_four_game/
@@ -34,6 +35,7 @@ Connect-Four-Game/
 │       ├── Game.java
 │       └── ConnectFour.java
 └── README.md
+```
 
 ## Running the Game
 ### Navigate to the project directory:
@@ -55,11 +57,12 @@ java connect_four_game.ConnectFour
 - The goal is to connect four of your discs in a row horizontally, vertically, or diagonally.
 - The first player to connect four discs wins the game.
 - If the grid is completely filled and no player has connected four discs, the game ends in a draw.
-- 
+
 ### Controls
 Enter the column number (0-6) where you want to drop your disc.
 
 ### Example Gameplay
+```sh
  0 1 2 3 4 5 6
  . . . . . . .
  . . . . . . .
@@ -67,6 +70,7 @@ Enter the column number (0-6) where you want to drop your disc.
  . . . . . . .
  . . . . . . .
  R . . . . . .
+```
 
 Player 1's turn (R)
 Choose a column (0-6): 1
